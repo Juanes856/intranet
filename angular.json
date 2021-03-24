@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -124,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "intranet"
+  "defaultProject": "intranet",
+  "cli": {
+    "analytics": "9a7ebdbe-9828-4f65-9b5c-7869918ff86d"
+  }
 }
